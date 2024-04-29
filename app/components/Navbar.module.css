@@ -1,0 +1,16 @@
+.navbarContainer {
+  border: 1px solid #ff0000;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbarImageContainer {
+  display: flex;
+  gap: 1.25rem;
+}
