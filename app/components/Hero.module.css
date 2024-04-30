@@ -1,0 +1,106 @@
+/* MOBILE HERO */
+.heroContainer {
+  padding-top: 1rem;
+  /* border: 1px solid green; */
+}
+
+.heroHeadingWrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.heroHeading {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 40px;
+  font-weight: 650;
+  color: #172026;
+}
+
+.heroDescription {
+  text-align: center;
+  padding-top: 1.5rem;
+
+  color: #36485c;
+}
+
+.heroButtonContainer {
+  /* border: 1px solid orange; */
+  display: flex;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.heroTryForFreeButton {
+  background-color: #4328eb;
+  width: 50%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.heroViewPricingButton {
+  width: 50%;
+  color: #4328eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.heroImageContainer {
+  position: relative;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* border: 1px solid pink; */
+}
+
+.heroGradientImage {
+  min-height: 500px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.heroImageWrapper {
+  position: absolute;
+  bottom: 1.25rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroImage {
+  margin-left: 1rem;
+  height: 310px;
+}
+
+.heroCompaniesContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroCompaniesText {
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+}
+
+.heroCompaniesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  vertical-align: middle;
+}

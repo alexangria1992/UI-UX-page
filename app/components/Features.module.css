@@ -1,0 +1,65 @@
+.featuresSection {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featuresContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 56px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.featuresHeading {
+  font-weight: 500;
+  color: #0085ff;
+}
+
+.featuresWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.featuresSubHeading {
+  padding-top: 12px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: #172026;
+}
+
+.featuresImageOne {
+  padding-top: 24px;
+}
+
+.featuresText {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: #36485c;
+  font-weight: 400;
+}
+
+.featuresChecklist {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+}
+
+.featuresCheckListItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #36485c;
+}
+
+.featuresLearnMore {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 1.5rem;
+  font-weight: 500;
+  color: #0085ff;
+}
