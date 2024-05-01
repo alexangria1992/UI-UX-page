@@ -1,0 +1,76 @@
+.pricingContainer {
+  padding-top: 48px;
+}
+
+.pricingHeading {
+  color: #172026;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.pricingText {
+  padding-top: 16px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: #36485c;
+}
+
+.pricingWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.pricingContentWrapper {
+  width: 100%;
+  border-radius: 8px;
+  background: #f5f4ff;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricingContentHeading {
+  font-weight: 600;
+  color: #4328eb;
+  flex: 18px;
+}
+.pricingContentText {
+  padding-top: 12px;
+  color: #36485c;
+}
+
+.pricingPricePerMonth {
+  padding-top: 1rem;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.pricingSpan {
+  color: #5f7896;
+}
+
+.pricingList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  color: #36485c;
+}
+
+.pricingListItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pricingFreeTrialButton {
+  margin-top: 16px;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 14px 14px;
+  color: #4328eb;
+  font-weight: 600;
+}

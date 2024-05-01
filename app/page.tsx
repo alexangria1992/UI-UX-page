@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import styles from "../app/components/Features.module.css";
 import Faq from "./components/Faq";
+import Pricing from "./components/Pricing";
 export default function Home() {
   return (
     <>
@@ -12,6 +13,7 @@ export default function Home() {
       <div className={styles.featuresSection}>
         <Features />
         <Faq />
+        <Pricing />
       </div>
     </>
   );
