@@ -1,0 +1,62 @@
+.faqContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.faqHeading {
+  font-weight: 500;
+  color: #eb2891;
+  font-size: 14px;
+}
+
+.faqSubHeading {
+  font-size: 24px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  color: #172026;
+}
+
+.faqText {
+  font-weight: 400;
+  padding-bottom: 24px;
+  color: #36485c;
+}
+
+.faqAccordion {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.faqAccordionItem {
+  background-color: #e3f1ff;
+  padding: 16px;
+  border-radius: 8pox;
+}
+
+.faqAccordionQuestion {
+  text-align: left;
+  font-weight: 600;
+  color: #172026;
+}
+
+.faqAccordionAnswer {
+  padding-top: 0.5rem;
+  color: #36485c;
+}
+
+.faqAccordionTrigger {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faqIcon {
+  height: 2.5rem;
+  width: 2.5rem;
+}

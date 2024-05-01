@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
 import styles from "../app/components/Features.module.css";
+import Faq from "./components/Faq";
 export default function Home() {
   return (
     <>
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <div className={styles.featuresSection}>
         <Features />
+        <Faq />
       </div>
     </>
   );

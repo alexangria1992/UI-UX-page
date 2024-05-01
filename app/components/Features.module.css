@@ -63,3 +63,53 @@
   font-weight: 500;
   color: #0085ff;
 }
+
+.featuresHeadingTwo {
+  color: #00a424;
+}
+
+.featuresLearnMoreTwo {
+  color: #00a424;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 1.5rem;
+  font-weight: 500;
+}
+
+.featuresHeadingThree {
+  color: #eb2891;
+}
+
+.featuresLearnMoreThree {
+  color: #eb2891;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 1.5rem;
+  font-weight: 500;
+}
+
+.featuresStatsContainer {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+}
+
+.featuresStatsWrapper {
+  width: 50%;
+  flex-direction: column;
+  row-gap: 0.75rem;
+  display: flex;
+}
+
+.featuresStatsHeading {
+  font-weight: 600;
+  font-size: 20px;
+  color: #172026;
+}
+
+.featuresStatsText {
+  font-weight: 400;
+  color: #36485c;
+}
