@@ -14,3 +14,62 @@
   display: flex;
   gap: 1.25rem;
 }
+
+.navbarSignIn {
+  display: none;
+}
+
+.navbarImageWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbarLinks {
+  display: none;
+}
+
+.navbarOpenAccount {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .navbarContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .navbarSignIn {
+    font-weight: 600;
+    display: block;
+    color: #36485c;
+  }
+
+  .navbarMobileMenu {
+    display: none;
+  }
+
+  .navbarLinks {
+    display: flex;
+    padding-left: 74px;
+    gap: 56px;
+  }
+
+  .navbarLinksWrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbarListItems {
+    color: #36485c;
+    font-weight: 600;
+  }
+
+  .navbarOpenAccount {
+    display: block;
+    font-weight: 600;
+    color: #36485c;
+    padding-right: 56px;
+  }
+}
