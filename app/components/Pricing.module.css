@@ -74,3 +74,58 @@
   color: #4328eb;
   font-weight: 600;
 }
+
+.pricingContentWrapperTwo {
+  width: 100%;
+  border-radius: 8px;
+  background: #4328eb;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricingContentHeadingTwo {
+  font-weight: 600;
+  color: white;
+  flex: 18px;
+}
+
+.pricingContentTextTwo {
+  padding-top: 12px;
+  color: #f4f8fa;
+}
+
+.pricingPricePerMonthTwo {
+  padding-top: 1rem;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+.pricingSpanTwo {
+  color: white;
+}
+
+.pricingListTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  color: #f4f8fa;
+}
+
+.pricingEnterpriseCardText {
+  padding-top: 1rem;
+  font-size: 16px;
+  color: #36485c;
+}
+
+.pricingEnterpriseCardTextTwo {
+  padding-top: 0.5rem;
+  font-size: 16px;
+  color: #36485c;
+}
+
+.pricingBusinessCardImage {
+  color: white;
+}
