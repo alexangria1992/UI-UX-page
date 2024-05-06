@@ -1,13 +1,14 @@
-import styles from "./Hero.module.css";
-import BlurArrow from "../../public/assets/blue-button.svg";
-import Gradient from "../../public/assets/Gradient.svg";
-import HeroImage from "../../public/assets/Image.svg";
-import Google from "../../public/assets/Google.svg";
-import Slack from "../../public/assets/Slack.svg";
-import TrustPilot from "../../public/assets/Trustpilot.svg";
-import CNN from "../../public/assets/CNN.svg";
-import Clutch from "../../public/assets/Clutch.svg";
-import Image from "next/image";
+import styles from './Hero.module.css';
+import BlurArrow from '../../public/assets/blue-button.svg';
+import Gradient from '../../public/assets/Gradient.svg';
+import HeroImage from '../../public/assets/Image.svg';
+import Google from '../../public/assets/Google.svg';
+import Slack from '../../public/assets/Slack.svg';
+import TrustPilot from '../../public/assets/Trustpilot.svg';
+import CNN from '../../public/assets/CNN.svg';
+import Clutch from '../../public/assets/Clutch.svg';
+import Image from 'next/image';
+
 function Hero() {
   return (
     <div className={styles.heroContainer}>
@@ -23,23 +24,24 @@ function Hero() {
         <div className={styles.heroButtonContainer}>
           <button className={styles.heroTryForFreeButton}>Try for free</button>
           <button className={styles.heroViewPricingButton}>
-            View pricing{" "}
+            View pricing{' '}
             <span>
-              <Image src={BlurArrow} alt="arrow" />
+              <Image src={BlurArrow} alt='arrow' />
             </span>
           </button>
         </div>
       </div>
+
       <div className={styles.heroImageContainer}>
         <Image
           src={Gradient}
           className={styles.heroGradientImage}
-          alt="gradient image"
+          alt='gradient image'
         />
         <div className={styles.heroImageWrapper}>
           <Image
             src={HeroImage}
-            alt="hero-image"
+            alt='hero-image'
             className={styles.heroImage}
           />
 
@@ -48,11 +50,11 @@ function Hero() {
               Trusted by these companies
             </p>
             <div className={styles.heroCompaniesGrid}>
-              <Image src={Google} alt="" />
-              <Image src={Slack} alt="" />
-              <Image src={TrustPilot} alt="" />
-              <Image src={CNN} alt="" />
-              <Image src={Clutch} alt="" />
+              <Image src={Google} alt='' />
+              <Image src={Slack} alt='' />
+              <Image src={TrustPilot} alt='' />
+              <Image src={CNN} alt='' />
+              <Image src={Clutch} alt='' />
             </div>
           </div>
         </div>
