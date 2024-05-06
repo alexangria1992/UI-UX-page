@@ -21,6 +21,19 @@
 .featuresWrapper {
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
+}
+
+.featuresWrapperTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.featuresWrapperThree {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .featuresSubHeading {
@@ -112,4 +125,93 @@
 .featuresStatsText {
   font-weight: 400;
   color: #36485c;
+}
+
+.featuresDeskopImage {
+  display: none;
+}
+
+.featuresHeadingTwo {
+  color: #00a424;
+}
+
+.featuresLearnMoreTwo {
+  color: #00a424;
+}
+@media (min-width: 640px) {
+  .featuresDeskopImage {
+    display: block;
+    width: 50%;
+  }
+  .featuresImageOne {
+    display: none;
+  }
+
+  .featuresImageTwo {
+    display: none;
+  }
+
+  .featuresImageThree {
+    display: none;
+  }
+
+  .featuresWrapper {
+    flex-direction: row-reverse;
+  }
+
+  .featuresWrapperTwo {
+    flex-direction: row;
+  }
+
+  .featuresWrapperThree {
+    flex-direction: row-reverse;
+  }
+
+  .desktopWrapper {
+    width: 50%;
+  }
+
+  .desktopWrapperTwo {
+    width: 50%;
+  }
+}
+@media (min-width: 1024px) {
+  .featuresContainer {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 80px;
+  }
+
+  .desktopWrapper {
+    padding-bottom: 56px;
+    padding-top: 56px;
+    padding-right: 56px;
+  }
+
+  .desktopWrapperTwo {
+    padding-left: 56px;
+    padding-bottom: 56px;
+    padding-top: 56px;
+  }
+
+  .featuresHeading {
+    font-size: 18px;
+  }
+
+  .featuresSubHeading {
+    font-size: 42px;
+    line-height: 58px;
+  }
+
+  .featuresText {
+    font-size: 18px;
+  }
+
+  .featuresChecklist {
+    font-size: 18px;
+  }
+
+  .featuresLearnMore {
+    font-size: 18px;
+  }
 }
